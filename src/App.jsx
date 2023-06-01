@@ -53,7 +53,7 @@ function App() {
           className="d-flex w-100 py-3 flex-wrap justify-content-center"
           onSubmit={handleSubmit}
         >
-          <div className="d-flex flex-column px-5 w-25 flex-wrap">
+          <div className="d-flex flex-column justify-content-center px-5 w-25 flex-wrap">
             <label htmlFor="inputNombre" className="form-label">
               Nombre:
             </label>
@@ -61,7 +61,7 @@ function App() {
               Color:
             </label>
           </div>
-          <div className="d-flex flex-column w-75 pe-5">
+          <div className="d-flex flex-column  w-75 pe-5">
             <input
               type="text"
               name="inputNombre"
